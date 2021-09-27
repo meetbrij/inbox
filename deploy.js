@@ -3,10 +3,11 @@ const Web3 = require("web3");
 const { interface, bytecode } = require("./compile");
 
 const provider = new HDWalletProvider(
-  "juice bicycle seek common shield hello below angry source share exact mobile",
-  // remember to change this to your own phrase!
-  "https://rinkeby.infura.io/v3/15c1d32581894b88a92d8d9e519e476c"
-  // remember to change this to your own endpoint!
+  "october robot economy bitter hair doll nothing powder work bone glad hero",
+  // phrase updated
+
+  "https://rinkeby.infura.io/v3/103820bbe44545d3a7ffd374b2c9068d"
+  // endpoint updated
 );
 const web3 = new Web3(provider);
 
